@@ -1,0 +1,52 @@
+.in--text {
+  margin: 15px;
+  width: 95%;
+}
+
+.main--container {
+  display: grid;
+  grid-template: 60px 60px / 1fr 1fr;
+  width: 70%;
+  justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+}
+
+.send--button {
+  color: white;
+  border-radius: 15px;
+  border: none;
+  background: rgb(34, 91, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 91, 195, 1) 0%,
+    rgba(45, 253, 121, 1) 100%
+  );
+  grid-column: 1 / -1;
+  font-size: 1.5rem;
+}
+
+.send--button:hover {
+  color: white;
+  border-radius: 15px;
+  border: none;
+  background: rgb(34, 61, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 61, 195, 1) 0%,
+    rgba(45, 253, 202, 1) 100%
+  );
+  grid-column: 1 / -1;
+  font-size: 1.6rem;
+}
+
+.meme--img{
+    width: 35%;
+    margin: 30px;
+}

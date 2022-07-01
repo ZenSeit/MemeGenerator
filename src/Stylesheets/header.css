@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background: rgb(34,195,193);
+  background: linear-gradient(0deg, rgba(34,195,193,1) 0%, rgba(105,253,45,1) 100%);
+  font-size: 15px;
+  color: white;
+  font-weight: 700;
+}
+
+.rigth-container {
+  display: flex;
+  align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.icons:hover{
+    font-size: 45px;
+}
+
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin: 10px;
+}
+

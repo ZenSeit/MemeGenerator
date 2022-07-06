@@ -54,7 +54,7 @@
   background-color: red;
   align-items: center;
   color: white;
-  font-size: 40px;
+  font-size: 1.4em;
   -webkit-text-stroke: 2px black;
   margin: 20px;
 }
@@ -65,10 +65,10 @@
 
 .meme--toptext{
   position: absolute;
-  top: -60px;
+  top: -30px;
 }
 
 .meme--bottomtext{
   position: absolute;
-  bottom: -40px;
+  bottom: -20px;
 }

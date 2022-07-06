@@ -46,7 +46,29 @@
   font-size: 1.6rem;
 }
 
+.meme{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: red;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  -webkit-text-stroke: 2px black;
+  margin: 20px;
+}
+
 .meme--img{
-    width: 35%;
-    margin: 30px;
+    width: 100%;
+}
+
+.meme--toptext{
+  position: absolute;
+  top: -60px;
+}
+
+.meme--bottomtext{
+  position: absolute;
+  bottom: -40px;
 }
